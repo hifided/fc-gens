@@ -11,11 +11,11 @@ Despite the large period and good statistical quality, a significant drawback of
 One of the simplest ways to complicate a sequence over a finite set is to map its n-grams to another sequence using the filter function.  
 Let P be a finite field. A filtering generator is an autonomous automaton $A=(P^n,P,h,N)$, where h is a linear substitution of the vector space $P^n$ implemented by n-length LSR over the P field with callback function $F(x)$. $N:P^n→P$ is a filtering function.  
 A filter generator is called non-linear if the filter function is non-linear.
-![Filter generator](images/sr.jpg)
+![Filter generator](images/fg.jpg)
 ## Combining generator
 The combining generator is a complication of the filter generator. It's built on the basis of k > 1 LSRs over the $P$ field and the combining function $N:P^k→P$. The input of $N$ is the characters of linear recurrent sequences produced by LSRs.  
 The combining generator is called non-linear if the combining function is non-linear.
-![Combining generator](images/cr.jpg)
+![Combining generator](images/cg.jpg)
 # How To Use
 * generators.py - implementation of LSR, filter and combining generator functions
 * test.py - usage examples
