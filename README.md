@@ -18,6 +18,7 @@ The combining generator is a complication of the filter generator. It's built on
 The combining generator is called non-linear if the combining function is non-linear.
 
 ![Combining generator](images/cg.jpg)
+
 # How To Use
 * generators.py - implementation of LSR, filter and combining generator functions
 * test.py - usage examples
